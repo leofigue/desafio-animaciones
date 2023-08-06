@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries - Leonardo Figueroa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./assetes/css/style.css">
+</head>
+
+<body>
+    <!--  -->
+    <div class="container_ppal">
+        <div class="menu">
+            <div>
+                <i class="fa-solid fa-charging-station fa-2x"></i>&nbsp;<span>Electric Cars</span>
+            </div>
+
+
+            <div class="menu__burger">
+                <input type="checkbox">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+                <nav class="navigation">
+                    <ul>
+                        <a href="#inicio">Inicio</a>
+                        <a href="#productos">Catálogo</a>
+                        <a href="#contacto">Contacto</a>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="navigation"> 
+                <ul class="menu__opciones">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#productos">Catálogo</a>
+                    <a href="#contacto">Contacto</a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <section id="inicio" class="inicio">
+                <img src="./assetes/img/header.webp">
+            </section>
+            <section id="productos" class="productos">
+                <h3>Autos Disponibles para venta</h3>
+                <div class="listado">
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                    <div class="ficha-producto bottom">
+                        <img src="./assetes/img/auto.png" alt="Auto" />
+                        <div style="width: 100%;">
+                            <p>Model: City Car</p>
+                            <input class="btn" type="button" value="Ver más">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto" class="contacto">
+                <div class="datos_contacto">
+                    <div class="info">
+                        <div >
+                            <i class="fa-regular fa-circle-user"></i>
+                        </div>
+                        <div >
+                        <span>Leonardo Figueroa</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div >
+                            <i class="fa-solid fa-square-phone"></i>
+                        </div>
+                        <div >
+                        <span>+569 1234 5678</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div >
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div >
+                        <span>automotora@email.cl</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="formulario_contacto">
+                    <form>
+                        <div>
+                            <input type="text" class="form-control" id="txtNombre" placeholder="Nombre" required style="width:100%">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" id="txtEmail" placeholder="Correo Electrónico" required style="width:100%">
+                        </div>
+                        <div>
+                            <textarea type="text" class="form-control" id="txtMensaje" placeholder="Mensaje"  required style="height: 100px; width: 100%;"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+
+        <footer class="footer">
+            <div>
+                <i class="fa-brands fa-facebook fa-lg"></i>
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </div>
+            <div>
+                <p>automotora@email.cl</p>
+                <p>+569 1234 5678</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
